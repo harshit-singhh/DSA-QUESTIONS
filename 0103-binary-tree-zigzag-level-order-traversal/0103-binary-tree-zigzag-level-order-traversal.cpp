@@ -30,12 +30,12 @@ public:
     	    for(int i = 0 ; i< size ; i ++){
     	        TreeNode*temp = p.front();
     	        p.pop();
-    	        if (temp != NULL) {
-    	        	if(temp -> left != nullptr) p.push(temp -> left);
-    	        	if(temp -> right!= nullptr ) p.push(temp -> right);
+    	        // if (temp != NULL) {
+    	        if(temp -> left != nullptr) p.push(temp -> left);
+    	        if(temp -> right!= nullptr ) p.push(temp -> right);
     	        
-    	        	level.push_back(temp -> val);
-							}
+    	        level.push_back(temp -> val);
+							
     	        
     	        
     	    }
