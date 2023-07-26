@@ -1,17 +1,20 @@
 class Solution {
     private:
     
-    double find(int value , vector<int>&dist){
+    double find(int speed , vector<int>&dist){
         double ans = 0.0;
 
         int n = dist.size();
 
          for(int i=0;i<dist.size();i++){
-            double d=dist[i]*1.0/value;
-            if(i!=dist.size()-1)
-            ans=ans+ceil(d);
-            else
-            ans+=d;
+            double val = (double)dist[i]/speed;
+            if(i == n-1){
+                ans+= val;
+                break;
+            }
+            else{
+                ans+=ceil(val);
+            }
             
         }
         return ans;
