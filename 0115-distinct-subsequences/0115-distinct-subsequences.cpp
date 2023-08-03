@@ -35,7 +35,7 @@ class Solution {
             }
         }
 
-        return (int)dp[n][m];
+        return dp[n][m];
     }
 
 public:
