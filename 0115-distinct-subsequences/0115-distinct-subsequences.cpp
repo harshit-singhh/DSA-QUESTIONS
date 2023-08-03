@@ -16,7 +16,7 @@ class Solution {
     //tabulation
 
     int solvetab(string s1 ,string s2 , int n ,int m){
-        vector<vector<double>>dp(n+1 , vector<double>(m+1 , -1));
+        vector<vector<unsigned long long>>dp(n+1 , vector<unsigned long long>(m+1 , -1));
         for(int i = 0 ; i <= m ; i++){
             dp[0][i] = 0;
         }
