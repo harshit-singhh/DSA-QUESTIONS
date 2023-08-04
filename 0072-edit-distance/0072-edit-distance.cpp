@@ -23,11 +23,11 @@ class Solution {
     int solvetab(string str1 , string str2 , int n , int m){
         vector<vector<int>>dp(n+1 , vector<int>(m+1, -1));
         for(int i = 0 ; i<= n ; i++){
-            dp[i][0] = i+1;
+            dp[i][0] = i; // because of 1 based indexing this will happen to i instead of i+1
         }
 
         for(int i = 0 ; i<= m ; i++){
-            dp[0][i] = i+1;
+            dp[0][i] = i;
         }
 
         for(int i = 1 ; i<= n ; i++){
@@ -41,7 +41,7 @@ class Solution {
             }
         }
 
-        return dp[n][m]-1;
+        return dp[n][m];
     }
 public:
     int minDistance(string word1, string word2) {
