@@ -32,9 +32,22 @@ class Solution {
             dp[i][0] = false;
         }
         dp[0][0] = true;
-        for(int i = 0 ; i< m ; i++){
-            if(str2[i] != '*') dp[0][i+1] = false;
-            else dp[0][i+1] = true;
+        // if(i == 0 && j >0){
+        //     for(int k = 1 ; k <= j ; k++){
+        //         if(str2[k-1] != '*') return false;
+        //     }
+        //     return true;
+        // }
+        
+        for(int j = 1; j <= m ; j++){
+            bool flag = true;
+            for(int k = 1 ; k<= j ; k++){
+                if(str2[k-1] != '*'){
+                    flag = false;
+                    break;
+                }
+            }
+            dp[0][j] = flag;
         }
 
 
@@ -62,7 +75,7 @@ public:
         int m = p.size();
 
         vector<vector<int>>dp(n+1 , vector<int>(m+1 , -1));
-        return solve(s , p , n-1 , m-1 ,dp);
+        // return solve(s , p , n-1 , m-1 ,dp);
         return solvetab(s , p , n , m);
     }
 };
