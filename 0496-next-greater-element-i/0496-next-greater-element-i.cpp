@@ -8,7 +8,7 @@ public:
          int index = nums2.size() -1;
 
          while(index >= 0){
-             while(!st.empty() && nums2[index] >= st.top()){
+             while(!st.empty() && nums2[index] > st.top()){
                  st.pop();
              }
              if(!st.empty()){
