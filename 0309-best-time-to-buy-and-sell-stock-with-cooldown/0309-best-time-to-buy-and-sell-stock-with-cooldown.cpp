@@ -31,7 +31,7 @@ public:
 
         int n = prices.size();
 
-        vector<vector<vector<int>>>dp(n+2 , vector<vector<int>>(3 , vector<int>(3 , -1)));
+        vector<vector<vector<int>>>dp(n+2 , vector<vector<int>>(2 , vector<int>(2 , -1)));
 
         return solve(prices , 0  , n  ,1, 0 ,dp);
     }
