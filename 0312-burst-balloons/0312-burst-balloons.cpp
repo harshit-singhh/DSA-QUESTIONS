@@ -17,6 +17,25 @@ class Solution {
         }
         return dp[i][j] = maxi;
     }
+
+    // tabulation
+
+    int solvetab(vector<int>&nums , int n){
+        vector<vector<int>>dp(n+1 , vector<int>(n+1 , 0));
+
+        for(int i = n-2 ; i >= 1 ; i--){
+            for(int j = i ; j <= n-2 ; j++){
+                if(i > j) continue;
+                int maxi = -1e9;
+                for(int k = i ; k <= j ; k++){
+                    int cost = nums[i-1]*nums[k]* nums[j+1] + dp[i][k-1] + dp[k+1][j];
+                    maxi = max(cost , maxi);
+                }
+                dp[i][j] = maxi;
+            }
+        }
+        return dp[1][n-2];
+    }
 public:
     int maxCoins(vector<int>& nums) {
         nums.push_back(1);
@@ -26,7 +45,8 @@ public:
 
         vector<vector<int>>dp(n+1 , vector<int>(n+1 , -1));
 
-        return solve(nums , 1 , n-2 ,dp );
+        // return solve(nums , 1 , n-2 ,dp );
+        return solvetab(nums , n);
     }
 };
 
