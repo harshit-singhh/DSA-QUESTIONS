@@ -55,7 +55,7 @@ class Solution {
 
     // tabulation
 
-    int solvetab(string s , int n , vector<vector<bool>>&PalindromeTable){
+    int solvetab(string s , int n , vector<vector<int>>&PalindromeTable){
         vector<int>dp(s.size() +1 , 0);
 
         for(int i = n-1 ; i >= 0 ; i--){
@@ -77,8 +77,8 @@ public:
         vector<int>dp(s.size() +1 , -1);
         int n = s.size();
         vector<vector<int>>PalindromeTable = table(s , n);
-        return solve( s, 0 , s.size() ,dp ,PalindromeTable) -1;
+        // return solve( s, 0 , s.size() ,dp ,PalindromeTable) -1;
 
-        // return solvetab(s, s.size() , PalindromeTable)-1;
+        return solvetab(s, s.size() , PalindromeTable)-1;
     }
 };
