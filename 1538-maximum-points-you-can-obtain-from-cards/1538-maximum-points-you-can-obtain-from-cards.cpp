@@ -32,7 +32,7 @@ public:
                 ImpSum = totalsumOfArray - (SumAteachIndex[right]);
             }
             else{
-                ImpSum = totalsumOfArray - (SumAteachIndex[right] - SumAteachIndex[left-1]); // dry run kroge to smj jaoge
+                ImpSum = totalsumOfArray - SumAteachIndex[right] + SumAteachIndex[left-1]; // dry run kroge to smj jaoge
             }
             
             left++;
