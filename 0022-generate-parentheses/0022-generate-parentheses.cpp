@@ -13,7 +13,7 @@ class Solution {
         if(cc > oc){
             temp.push_back(')');
             solve(index+1 , n , oc , cc-1 , temp , ans);
-            temp.pop_back();
+            // temp.pop_back();
         }
     }
 public:
