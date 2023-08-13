@@ -36,12 +36,13 @@ class Solution {
     }
     void solve(vector<vector<int>>matrix , int n , int&count , int col){
          if (col >= n) {
-            count++;
+            // count++;
             return;
         }
 
         for (int row = 0; row < n; row++) {
             if (ispossible(row, col, matrix, n)) {
+                if(col == n-1) count++;
                 matrix[row][col] = 1;
                 solve(matrix, n, count, col + 1);
                 matrix[row][col] = 0;
