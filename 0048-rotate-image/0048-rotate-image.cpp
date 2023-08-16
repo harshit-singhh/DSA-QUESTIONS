@@ -5,15 +5,24 @@ public:
         int m = matrix[0].size();
 
 
-        vector<vector<int>>ans(n , vector<int>(m , 0));
-
-        for(int i = 0 ; i < n ; i ++){
-            for(int j = 0 ; j < m ;j ++){
-                ans[j][n-1-i] = matrix[i][j];
+        for(int i = 0 ; i < n ; i++){
+            for(int j = i+1 ; j < m ; j++){
+                swap(matrix[i][j] , matrix[j][i]);
             }
         }
 
-        matrix = ans;
+        for(int i = 0 ; i < n ; i++){
+            int start = 0 ;
+            int end = m-1;
+
+            while(start < end){
+                swap(matrix[i][start] , matrix[i][end]);
+                start++;
+                end--;
+            }
+        }
+
+        
 
     }
 };
