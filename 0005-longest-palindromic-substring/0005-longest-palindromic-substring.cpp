@@ -52,9 +52,9 @@ public:
         }
         
         string ans;
-        for(int i = start ; i <= end ; i++){
-            ans = S.substr(start , end - start + 1);
-        }
+        
+        ans = S.substr(start , end - start + 1);
+        
         
         return ans;
     }
