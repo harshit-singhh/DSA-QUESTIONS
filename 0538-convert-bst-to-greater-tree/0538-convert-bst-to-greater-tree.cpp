@@ -10,40 +10,21 @@
  * };
  */
 class Solution {
-     void findInorder(TreeNode*root , vector<int>&inorder){
-        if(root == NULL )return ;
+    void solve(TreeNode*root , int&sum){
+        if(!root)return;
 
-        findInorder(root -> left , inorder);
-        inorder.push_back(root -> val);
-        findInorder(root -> right , inorder);
-    }
-
-    void newtree(TreeNode*root , vector<int>&suffix , int &index){
-        if(root == NULL) return;
-
-        newtree(root -> left , suffix , index);
-        root -> val = suffix[index];
-        index++;
-        newtree(root -> right , suffix , index);
+        solve(root -> right , sum);
+        sum+=root -> val;
+        root -> val = sum;
+        solve(root -> left , sum); 
     }
 public:
     TreeNode* convertBST(TreeNode* root) {
-        vector<int>inorder;
-
-        findInorder(root , inorder);
-        int n =inorder.size();
-
-        vector<int>suffix(n , 0);
         int sum = 0;
-        for(int i = n-1 ; i >= 0 ; i--){
-            sum += inorder[i];
-            suffix[i] = sum;
 
-        }
-
-        int index = 0;
-        newtree(root , suffix , index);
+        solve(root , sum);
 
         return root;
+
     }
 };
