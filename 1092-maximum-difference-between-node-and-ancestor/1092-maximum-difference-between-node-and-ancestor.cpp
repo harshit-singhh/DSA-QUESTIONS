@@ -21,7 +21,7 @@ class Solution {
         int currmax = max(value , max(left.first , right.first));
         int currmin = min(value , min(left.second , right.second));
 
-        maxi = max(maxi , max(value - currmin , currmax - value));
+        maxi = max(maxi , max(value - currmin , abs(value - currmax)));
 
         return {currmax, currmin};
     }
