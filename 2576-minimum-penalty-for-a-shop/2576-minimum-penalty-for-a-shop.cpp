@@ -34,10 +34,7 @@ public:
             }
         }
 
-        for(auto it: preY) cout<<it<<" ";
-        cout<<endl;
-        for(auto it: preN) cout<<it<<" ";
-        cout<<endl;
+       
 
         return minindex;
     }
