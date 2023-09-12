@@ -10,10 +10,26 @@ class Solution {
         
         return dp[ind] = max(take , notTake);
     }
+
+    int solvetab(vector<int>&arr, int n ){
+        vector<int>dp(n , 0);
+
+        dp[0] = arr[0];
+        for(int ind = 1 ; ind< n ; ind++){
+            int take = arr[ind];
+            if(ind - 2 >= 0) take+= dp[ind-2];
+            int notTake = 0 + dp[ind-1];
+            
+            dp[ind] = max(take , notTake);
+        }
+
+        return dp[n-1];
+    }
 public:
     int rob(vector<int>& arr) {
         int n = arr.size();
         vector<int>dp(n+1, -1);
-        return solve(arr,n-1,dp);
+        // return solve(arr,n-1,dp);
+        return solvetab(arr , n);
     }
 };
