@@ -25,11 +25,34 @@ class Solution {
 
         return dp[n-1];
     }
+
+    int space(vector<int>&arr, int n){
+        int curr;
+        int prev = arr[0];
+        int prev2 = 0;
+
+        for(int ind = 1 ; ind < n ; ind++){
+            int take = arr[ind];
+            if(ind - 2 >= 0) take+= prev2;
+            int notTake = 0 + prev;
+            
+            curr = max(take , notTake);
+
+            prev2 = prev;
+            prev = curr;
+        }
+
+        return prev;
+
+    }
 public:
     int rob(vector<int>& arr) {
         int n = arr.size();
         vector<int>dp(n+1, -1);
         // return solve(arr,n-1,dp);
-        return solvetab(arr , n);
+        // return solvetab(arr , n);
+
+        return space(arr , n);
+
     }
 };
