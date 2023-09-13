@@ -52,6 +52,43 @@ class Solution {
         return mini;
 
     }
+
+    int space(vector<vector<int>>&matrix , int r , int c){
+
+        vector<int>prev(c , 0);
+        
+
+        for(int i = 0 ; i < c ; i++){
+            prev[i] = matrix[r-1][i];
+        }
+
+        for(int row = r-2 ; row >= 0 ; row --){
+            vector<int>curr(c, 0);
+            for(int col = 0 ;  col < c ; col ++){
+                int sum1 = matrix[row][col];
+                if(row+1 < r && col-1 >= 0) sum1+= prev[col-1];
+                else sum1 = 1e9;
+                int sum2 = matrix[row][col];
+                if(row+1 < r ) sum2 += prev[col];
+                else sum2 = 1e9;
+                int sum3 = matrix[row][col];
+                if(row+1 < r && col+1 < c) sum3+= prev[col+1];
+                else sum3 = 1e9;
+
+                curr[col] = min(sum1 , min(sum2 , sum3));
+            }
+
+            prev = curr;
+        }
+
+        int mini = INT_MAX;
+        for(int i = 0 ; i < c ; i++){
+            mini = min(mini , prev[i]);
+        }
+
+        return mini;
+
+    }
 public:
     int minFallingPathSum(vector<vector<int>>& matrix) {
         
@@ -68,7 +105,9 @@ public:
 
         // return mini;
 
-        return solvetab(matrix , n , m);
+        // return solvetab(matrix , n , m);
+
+        return space(matrix , n , m);
     }
 };
 
