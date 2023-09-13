@@ -18,6 +18,40 @@ class Solution {
 
         return dp[row][col] = min(sum1 , min(sum2 , sum3));
     }
+
+    // tabulation
+
+    int solvetab(vector<vector<int>>&matrix , int r , int c){
+        vector<vector<int>>dp(r, vector<int>(c , 1e9));
+
+        for(int i = 0 ; i < c; i++){
+            dp[r-1][i] = matrix[r-1][i];
+        }
+
+        for(int row = r-2 ; row >= 0 ; row --){
+            for(int col = 0 ;  col < c ; col ++){
+                int sum1 = matrix[row][col];
+                if(row+1 < r && col-1 >= 0) sum1+= dp[row+1][col-1];
+                else sum1 = 1e9;
+                int sum2 = matrix[row][col];
+                if(row+1 < r ) sum2 += dp[row+1][col];
+                else sum2 = 1e9;
+                int sum3 = matrix[row][col];
+                if(row+1 < r && col+1 < c) sum3+= dp[row+1][col+1];
+                else sum3 = 1e9;
+
+                dp[row][col] = min(sum1 , min(sum2 , sum3));
+            }
+        }
+
+        int mini = INT_MAX;
+        for(int i = 0 ; i < c ; i++){
+            mini = min(mini , dp[0][i]);
+        }
+
+        return mini;
+
+    }
 public:
     int minFallingPathSum(vector<vector<int>>& matrix) {
         
@@ -28,11 +62,13 @@ public:
 
         int mini = INT_MAX;
 
-        for(int i = 0 ; i < m ; i++){
-            mini = min(mini , solve(matrix, 0, i , n-1 , m-1 , dp));
-        }
+        // for(int i = 0 ; i < m ; i++){
+        //     mini = min(mini , solve(matrix, 0, i , n-1 , m-1 , dp));
+        // }
 
-        return mini;
+        // return mini;
+
+        return solvetab(matrix , n , m);
     }
 };
 
