@@ -1,5 +1,5 @@
 class Solution {
-    bool solve(map<string ,vector<string>>&mp , vector<string>&ans , vector<string>&temp,  string node , int n){
+    bool solve(map<string ,vector<string>>&mp , vector<string>&ans , vector<string>temp,  string node , int n){
        temp.push_back(node);
        if(temp.size() == n+1){
            ans = temp;
