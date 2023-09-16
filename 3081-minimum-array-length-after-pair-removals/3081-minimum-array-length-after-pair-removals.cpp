@@ -15,7 +15,7 @@ public:
         
         int size = q.size();
         
-        while(q.size() > 1){
+        while(size > 1){
             int t1 = q.top();
             q.pop();
             int t2 = q.top();
@@ -25,7 +25,9 @@ public:
             t1--;
             t2--;
             if(t1) q.push(t1);
+            else size--;
             if(t2) q.push(t2);
+            else size--;
             
         }
         
