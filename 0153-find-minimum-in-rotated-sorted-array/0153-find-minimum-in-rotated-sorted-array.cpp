@@ -9,19 +9,20 @@ public:
         int low = 0;
         int high = n-1;
 
-        while(low <= high){
+        while(low != high){
 
             int mid = low + (high - low) /2;
-            if(nums[mid] >= nums[low]){
-                ans = min(ans , nums[low]);
+            if(nums[mid] > nums[high]){
                 low = mid+1;
             }
-            else if(nums[mid] <= nums[high]){
-                ans = min(ans, nums[mid]);
-                high = mid-1;
+            else if(nums[mid] < nums[high]){
+                high = mid;
+            }
+            else{
+                high--;
             }
         }
 
-        return ans;
+        return nums[low];
     }
 };
