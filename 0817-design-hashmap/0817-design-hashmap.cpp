@@ -1,9 +1,11 @@
 class MyHashMap {
 public:
-    vector<int>map;
+    // vector<int>map;
+    int map[1000001];
 
     MyHashMap() {
-        map = vector<int>(1000001 , -1);
+        // map = vector<int>(1000001 , -1);
+        memset(map , -1 , sizeof(map));
     }
     
     void put(int key, int value) {
