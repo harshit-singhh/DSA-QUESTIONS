@@ -12,14 +12,24 @@ public:
             st.insert(it);
         }
 
-        int maxi = INT_MIN;
+        int maxi = 0;
 
-        int prev = *(st.begin());
-        cout<<prev<<" ";
+        // int prev = *(st.begin());
+        // cout<<prev<<" ";
         
-        for(auto it: st){
-            maxi = max(maxi , it - prev);
-            prev = it;
+        // for(auto it: st){
+        //     maxi = max(maxi , it - prev);
+        //     prev = it;
+        // }
+
+        // return maxi;
+
+        auto it = st.begin();
+        auto nextIt = st.begin();
+        ++nextIt;
+
+        for (; nextIt != st.end(); ++it, ++nextIt) {
+            maxi = std::max(maxi, *nextIt - *it);
         }
 
         return maxi;
