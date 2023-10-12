@@ -26,7 +26,7 @@ string preorder(TreeNode* root){
             mp[s]++;
     }
     else{
-        mp[s]=1;
+        mp[s]++;
     }
     return s;
     }
