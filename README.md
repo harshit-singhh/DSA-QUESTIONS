@@ -160,10 +160,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Graph
 |  |
@@ -191,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Two Pointers
 |  |
 | ------- |
@@ -203,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Greedy
 |  |
@@ -247,9 +251,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
