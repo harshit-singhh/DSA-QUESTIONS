@@ -1,62 +1,76 @@
 class Solution {
-    void dfs(vector<vector<int>>&visited,  vector<vector<char>> mat , int col , int row){
-        int r = mat.size();
-        int c = mat[0].size();
-        visited[row][col] = 1;
-        
-        int drow[] = {-1,0,1,0};
-        int dcol[] = {0,-1,0,1};
-        
-        for(int i = 0 ; i < 4 ; i ++){
-            int newrow = row + drow[i];
-            int newcol = col + dcol[i];
-            if(newrow >= 0 && newrow < r && newcol >= 0 && newcol < c && visited[newrow][newcol] == 0 
-            && mat[newrow][newcol] == 'O'){
-                dfs(visited,mat,newcol , newrow);
+public:
+
+    bool isvalid(int newrow , int newcol , int row, int col){
+        if(newrow < row && newrow >= 0 && newcol < col && newcol >= 0) {
+            return true;
+        }
+
+        return false;
+    }
+
+    void capture(vector<vector<char>>&board , vector<vector<int>>&visited , int row , int col , int crow ,  int ccol){
+        board[crow][ccol] = '1';
+        visited[crow][ccol] = 1;
+        int drow[] = {-1 , 0 , 1 , 0};
+        int dcol[] = {0 , -1 , 0 , 1};
+
+        for(int i = 0 ; i < 4 ; i++){
+            int newrow = crow + drow[i];
+            int newcol = ccol + dcol[i];
+
+            if(isvalid(newrow , newcol , row , col ) && board[newrow][newcol] == 'O' && visited[newrow][newcol] == 0){
+                capture(board , visited , row , col , newrow , newcol);
             }
         }
     }
-public:
-    void solve(vector<vector<char>>& mat) {
-        int n = mat.size();
-        int m = mat[0].size();
-        vector<vector<int>>visited(n,vector<int>(m,0));
-        // for upper and lower row
-        for(int i = 0 ; i<m ; i++){
-            // upper row
-            if(mat[0][i] == 'O' && visited[0][i] == 0){
-                dfs(visited,mat,i,0);
-            }
-            
-            // lower row
-            if(mat[n-1][i] == 'O' && !visited[n-1][i]){
-                dfs(visited,mat,i,n-1);
+    void solve(vector<vector<char>>& board) {
+        
+        int row= board.size();
+        int col = board[0].size();
+
+        vector<vector<int>>visited(row , vector<int>(col , 0));
+
+        //for top row
+
+        for(int i = 0 ; i < col ; i++){
+            if(board[0][i] == 'O'  && visited[0][i] == 0){
+                capture(board , visited ,row , col , 0 , i );
             }
         }
-        
-        for(int i = 0 ; i < n ; i++){
-            //left col
-            if(mat[i][0] == 'O' && !visited[i][0]){
-                dfs(visited,mat,0,i);
-            }
-            // right col
-            if(mat[i][m-1] == 'O' && visited[i][m-1] == 0 ){
-                dfs(visited,mat,m-1,i);
-            }
-            
-        }
-        
-     
-       
-        for(int i = 0 ; i< n ; i++){
-            for(int j = 0 ; j < m ; j++){
-                if(mat[i][j] == 'O' && visited[i][j] == 0){
-                    mat[i][j] = 'X';
-                }
+
+        // for left side 
+
+        for(int i = 0 ; i < row ; i++){
+            if(board[i][0] == 'O'  && visited[i][0] == 0){
+                capture(board , visited, row , col , i , 0);
             }
         }
-        
-  
-    
+
+        // for bottom 
+
+        for(int i = 0 ; i < col ; i++){
+            if(board[row-1][i] == 'O' && visited[row-1][i] == 0){
+                capture(board , visited,row , col , row-1 , i);
+            }
+        }
+
+        // for right side
+
+        for(int i = 0 ; i < row ; i++){
+            if(board[i][col-1] == 'O'  && visited[i][col-1] == 0){
+                capture(board , visited,row , col , i , col-1);
+            }
+        }
+
+
+        for(int i = 0 ; i < row ; i++){
+            for(int j = 0 ; j < col ; j++){
+                if(board[i][j] != '1') board[i][j] = 'X';
+                else board[i][j] = 'O';
+            }
+        }
+
+
     }
 };
