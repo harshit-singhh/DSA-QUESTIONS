@@ -11,7 +11,7 @@ public:
             int weCanGo = i+nums[i];
             maxWeCanGo = max(maxWeCanGo , weCanGo);
 
-            if(maxWeCanGo == n-1) return true;
+            if(maxWeCanGo >= n-1) return true;
 
             else if(i == maxWeCanGo){
                 return false;
