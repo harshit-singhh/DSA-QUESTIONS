@@ -1,34 +1,28 @@
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        int maxreach = nums[0];
+         int n = nums.size();
 
-        int n = nums.size();
-
-        if(n == 1) return true;
-
-        if(nums[0] == 0 && n != 0) return false;
-        
-
+        // if(n == 1) return true;
         int i = 0;
-        int steps = nums[0];
 
-        while(steps){
-            i++;
-            maxreach = max(maxreach , i+nums[i]);
-            steps --;
+        int maxWeCanGo = nums[0];
+        while(i < n){
+            int weCanGo = i+nums[i];
+            maxWeCanGo = max(maxWeCanGo , weCanGo);
 
-            if(steps == 0){
-                if((maxreach < n-1) && (i >= maxreach)) return false;
+            if(maxWeCanGo == n-1) return true;
 
-                else{
-                    steps = maxreach - i;
-                }
+            else if(i == maxWeCanGo){
+                return false;
             }
 
-            if(i + steps >= n-1) return true;
+            else if(maxWeCanGo > i){
+                i++;
+            }
+
         }
 
-        return false;
+        return true;
     }
 };
