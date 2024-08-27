@@ -184,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph
 |  |
 | ------- |
+| [1325-path-with-maximum-probability](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1325-path-with-maximum-probability) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1207-delete-nodes-and-return-forest) |
 | [1240-stone-game-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1240-stone-game-ii) |
 | [1293-three-consecutive-odds](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1293-three-consecutive-odds) |
+| [1325-path-with-maximum-probability](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1333-sort-the-jumbled-numbers) |
 | [1511-count-number-of-teams](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -402,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1325-path-with-maximum-probability](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1325-path-with-maximum-probability) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -434,6 +437,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 |  |
 | ------- |
+| [1325-path-with-maximum-probability](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3235-minimum-cost-to-convert-string-i) |
