@@ -247,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2727-number-of-senior-citizens](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3533-snake-in-matrix](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3533-snake-in-matrix) |
 ## Hash Table
 |  |
@@ -265,6 +266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2502-sort-the-people) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -313,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2299-merge-nodes-in-between-zeros) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Simulation
 |  |
 | ------- |
