@@ -169,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1207-delete-nodes-and-return-forest) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2035-count-sub-islands) |
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2171-second-minimum-time-to-reach-destination) |
@@ -314,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2299-merge-nodes-in-between-zeros) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Simulation
@@ -391,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0789-kth-largest-element-in-a-stream](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1207-delete-nodes-and-return-forest) |
+| [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3486-count-the-number-of-good-nodes](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3486-count-the-number-of-good-nodes) |
@@ -404,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0789-kth-largest-element-in-a-stream](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1207-delete-nodes-and-return-forest) |
+| [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Matrix
