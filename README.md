@@ -245,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2132-convert-1d-array-into-2d-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2411-spiral-matrix-iv](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2411-spiral-matrix-iv) |
 | [2502-sort-the-people](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
@@ -319,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0725-split-linked-list-in-parts](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2411-spiral-matrix-iv](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2411-spiral-matrix-iv) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Simulation
 |  |
@@ -331,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2411-spiral-matrix-iv](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2411-spiral-matrix-iv) |
 | [2645-pass-the-pillow](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
 | [3533-snake-in-matrix](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3533-snake-in-matrix) |
@@ -422,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2035-count-sub-islands](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2411-spiral-matrix-iv](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2411-spiral-matrix-iv) |
 ## Divide and Conquer
 |  |
 | ------- |
