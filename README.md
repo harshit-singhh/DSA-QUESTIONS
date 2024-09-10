@@ -321,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2411-spiral-matrix-iv](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2411-spiral-matrix-iv) |
+| [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Simulation
 |  |
@@ -348,6 +349,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1642-water-bottles](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2645-pass-the-pillow) |
+| [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Recursion
 |  |
 | ------- |
@@ -515,4 +517,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0476-number-complement) |
+## Number Theory
+|  |
+| ------- |
+| [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 <!---LeetCode Topics End-->
