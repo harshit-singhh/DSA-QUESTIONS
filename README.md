@@ -170,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1207-delete-nodes-and-return-forest) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -233,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1293-three-consecutive-odds](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1333-sort-the-jumbled-numbers) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1511-count-number-of-teams](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -412,6 +414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1720-crawler-log-folder](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -611,6 +614,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Doubly-Linked List
 |  |
