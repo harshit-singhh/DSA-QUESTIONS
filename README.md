@@ -265,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2727-number-of-senior-citizens](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3291-find-if-array-can-be-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3291-find-if-array-can-be-sorted) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3533-snake-in-matrix](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3533-snake-in-matrix) |
 ## Hash Table
@@ -335,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2586-longest-square-streak-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2586-longest-square-streak-in-an-array) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3291-find-if-array-can-be-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3291-find-if-array-can-be-sorted) |
 ## Greedy
 |  |
 | ------- |
@@ -597,6 +599,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0476-number-complement](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0476-number-complement) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [3291-find-if-array-can-be-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3291-find-if-array-can-be-sorted) |
 ## Number Theory
 |  |
 | ------- |
