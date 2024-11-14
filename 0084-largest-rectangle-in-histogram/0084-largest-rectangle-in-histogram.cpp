@@ -56,14 +56,7 @@ public:
         vector<int>nextSmaller = findNextSmaller(arr,  n );
         vector<int>prevSmaller = findPrevSmaller(arr , n);
 
-        for(auto it: nextSmaller){
-            cout<<it<<" ";
-        }
-        cout<<endl;
-        for(auto it : prevSmaller){
-            cout<<it<<" ";
-        }
-        cout<<endl;
+        
 
         int maxi = INT_MIN;
         for(int i = 0 ; i < n ; i ++){
