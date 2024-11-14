@@ -158,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0101-symmetric-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0130-surrounded-regions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0130-surrounded-regions) |
 | [0145-binary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0145-binary-tree-postorder-traversal) |
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0101-symmetric-tree) |
 | [0130-surrounded-regions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0130-surrounded-regions) |
 | [0999-regions-cut-by-slashes](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -473,6 +475,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0101-symmetric-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -489,6 +492,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0101-symmetric-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
