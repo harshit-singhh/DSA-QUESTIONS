@@ -1,62 +1,78 @@
 class Solution {
-    private:
-    void findnse(vector<int>heights , vector<int>&nse , int n ){
-        stack<int>st;
+public:
 
-        for(int i = n-1 ; i>= 0 ; i--){
-            while(!st.empty() && heights[i] <= heights[st.top()]){
+    vector<int>findNextSmaller(vector<int>arr , int n){
+
+        stack<int>st;
+        vector<int>ans(n , 0);
+
+        for(int i = n-1 ; i >= 0  ; i--){
+            while(!st.empty() && arr[i] <= arr[st.top()]){
                 st.pop();
             }
-            if(!st.empty()){
-                nse[i] = st.top();
-                st.push(i);
-            }
-            else if(st.empty()){
-                nse[i] = n;
-                st.push(i);
-            }
-        }
-    }
 
-    void findpse(vector<int>heights , vector<int>&pse , int n ){
-        stack<int>st;
-
-        for(int i = 0 ; i < n ; i++){
-            while(!st.empty() && heights[i] <= heights[st.top()]){
-                st.pop();
-            }
-            if(!st.empty()){
-                pse[i] = st.top();
+            if(st.empty()){
+                ans[i] = n;
                 st.push(i);
             }
             else{
-                pse[i] = -1;
-                st.push(i);
+                ans[i] = st.top();
+                st.push(i); 
             }
         }
+
+        return ans;
+
     }
-public:
-    int largestRectangleArea(vector<int>& heights) {
-        int n = heights.size();
-        vector<int>nse(n);
-        vector<int>pse(n);
 
-        findnse(heights , nse , n);
-        findpse(heights , pse , n);
-
-        int maxarea = 0;
+    vector<int>findPrevSmaller(vector<int>arr , int n){
+        stack<int>st;
+        vector<int>ans(n , 0);
 
         for(int i = 0 ; i < n ; i++){
+            while(!st.empty() && arr[i] <= arr[st.top()]){
+                st.pop();
+            }
 
-            int toright = nse[i] - i;
-            int toleft = i - pse[i] - 1;
-
-            int totalwidth = toleft + toright;
-
-            maxarea = max(maxarea , totalwidth*heights[i]);
+            if(st.empty()){
+                ans[i] = -1;
+                st.push(i);
+            }
+            else{
+                ans[i] = st.top();
+                st.push(i); 
+            }
         }
 
-        return maxarea;
+        return ans;
+    }
 
+    int largestRectangleArea(vector<int>& arr) {
+        int n = arr.size();
+
+
+    
+
+        vector<int>nextSmaller = findNextSmaller(arr,  n );
+        vector<int>prevSmaller = findPrevSmaller(arr , n);
+
+        for(auto it: nextSmaller){
+            cout<<it<<" ";
+        }
+        cout<<endl;
+        for(auto it : prevSmaller){
+            cout<<it<<" ";
+        }
+        cout<<endl;
+
+        int maxi = INT_MIN;
+        for(int i = 0 ; i < n ; i ++){
+
+            int len = arr[i];
+            int wid = (nextSmaller[i] - prevSmaller[i]) -1;
+            int area = len*wid;
+            maxi = max(maxi , area);
+        }
+        return maxi;
     }
 };
