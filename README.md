@@ -245,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1694-make-sum-divisible-by-p](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1694-make-sum-divisible-by-p) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -315,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -325,6 +327,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2586-longest-square-streak-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2586-longest-square-streak-in-an-array) |
@@ -468,6 +471,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1720-crawler-log-folder](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -663,4 +667,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0084-largest-rectangle-in-histogram) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 <!---LeetCode Topics End-->
