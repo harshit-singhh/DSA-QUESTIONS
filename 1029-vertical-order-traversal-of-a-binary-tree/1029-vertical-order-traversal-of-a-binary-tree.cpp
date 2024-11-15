@@ -1,62 +1,38 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
+
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        
-        map<int , map<int , vector<int>>>mp;
+        map<int, vector<pair<int,int>>>mp;
+        queue<pair<TreeNode*, pair<int,int>>>q;
 
-        queue<pair<TreeNode* , pair<int,int>>>q;
-
-        q.push({root , {0 , 0}});
-
+        q.push({root , {0,0}});
         while(!q.empty()){
             int size = q.size();
-
-            for(int i = 0 ; i < size ; i ++){
-
+            for(int i = 0 ; i < size ; i++){
                 auto it = q.front();
                 q.pop();
 
-                TreeNode*root = it.first ;
-                int xLevel = it.second.second;
-                int depth = it.second.first;
+                TreeNode* node = it.first;
+                int horval = it.second.first;
+                int verval = it.second.second;
 
+                mp[horval].push_back({verval , node -> val});
 
-                mp[xLevel][depth].push_back(root -> val);
-
-                if(root -> left) q.push({root -> left , {depth+1 , xLevel-1}});
-                if(root -> right) q.push({root -> right , {depth+1 , xLevel + 1}});
+                if(node -> left) q.push({node -> left , {horval - 1 , verval + 1}});
+                if(node -> right)q.push({node -> right , {horval+1 , verval + 1}});
 
             }
         }
-
 
         vector<vector<int>>ans;
-
-        for(auto it: mp){
+        for(auto it : mp){
             vector<int>temp;
+            sort(it.second.begin() , it.second.end());
             for(auto k : it.second){
-                sort(k.second.begin() , k.second.end());
-                for(auto j : k.second){
-                    temp.push_back(j);
-                }
+                temp.push_back(k.second);
             }
-
             ans.push_back(temp);
         }
-
         return ans;
-
-
     }
 };
