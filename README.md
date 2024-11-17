@@ -229,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0870-magic-squares-in-grid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0890-lemonade-change) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0906-walking-robot-simulation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0906-walking-robot-simulation) |
 | [0943-sum-of-subarray-minimums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0966-binary-subarrays-with-sum) |
@@ -333,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -438,6 +440,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## String
 |  |
@@ -548,6 +551,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0451-sort-characters-by-frequency) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1325-path-with-maximum-probability](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1325-path-with-maximum-probability) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -606,6 +610,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0567-permutation-in-string) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0966-binary-subarrays-with-sum) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -635,6 +640,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0966-binary-subarrays-with-sum) |
 | [1240-stone-game-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1240-stone-game-ii) |
 | [1694-make-sum-divisible-by-p](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1694-make-sum-divisible-by-p) |
@@ -692,4 +698,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0084-largest-rectangle-in-histogram) |
 | [0943-sum-of-subarray-minimums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0943-sum-of-subarray-minimums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 <!---LeetCode Topics End-->
