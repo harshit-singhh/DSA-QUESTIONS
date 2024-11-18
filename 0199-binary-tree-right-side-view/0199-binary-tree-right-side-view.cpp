@@ -12,42 +12,30 @@
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
-        vector<int>ans;
-
         if(root == NULL) return {};
-
-        map<int,int>mp;
-
-        queue<pair<TreeNode*, int>>q;
-
-        q.push({root , 0});
+        vector<int>ans;
+        queue<TreeNode*>q;
+        q.push(root);
 
         while(!q.empty()){
             int size = q.size();
-
-            for(int i = 0 ; i < size ; i ++){
+            bool firstElem = true;
+            for(int i = 0 ;  i < size ; i++){
                 auto it = q.front();
                 q.pop();
 
-                TreeNode* temp = it.first;
-                int level = it.second;
-
-                if(mp.find(level) == mp.end()){
-                    mp[level] = temp -> val;
+                TreeNode*temp = it;
+                if(firstElem == true){
+                    ans.push_back(temp -> val);
+                    firstElem = false;
                 }
 
-                if(temp -> right != NULL ) q.push({temp -> right , level+1});
-                if(temp -> left != NULL) q.push({temp -> left , level + 1});
+                if(temp -> right) q.push(temp -> right);
+                if(temp -> left) q.push(temp -> left);
+
             }
-
-            
         }
 
-        for(auto it: mp){
-            ans.push_back(it.second);
-        }
         return ans;
-
-        
     }
 };
