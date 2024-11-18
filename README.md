@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0057-insert-interval) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0084-largest-rectangle-in-histogram) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0130-surrounded-regions) |
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
@@ -288,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0424-longest-repeating-character-replacement) |
@@ -501,6 +503,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0101-symmetric-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0199-binary-tree-right-side-view) |
@@ -519,6 +522,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0101-symmetric-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0199-binary-tree-right-side-view) |
@@ -547,6 +551,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0023-merge-k-sorted-lists) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
