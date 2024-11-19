@@ -1,100 +1,34 @@
 class Solution {
-    int solve(vector<int>&prices , int index , int canbuy , vector<vector<int>>&dp){
-
-        if(index == prices.size()){
-            return 0; // no more profit can be made
+public:
+    int dp[30005][2];
+    int solve(vector<int>&prices , int index , int n , bool buy){
+        if(index == n ){
+            return 0;
         }
 
-        if(dp[index][canbuy] != -1) return dp[index][canbuy];
+        if(dp[index][buy] != -1) return dp[index][buy];
 
-        int profit = 0;
+        int buyy = 0 , sell = 0;
 
-        if(canbuy){
-            int buy =  -prices[index] + solve(prices , index+1 , 0 ,dp);
-            int notbuy = 0 + solve(prices , index+1 , 1 ,dp);
-
-            profit = max(buy , notbuy);
+        if(buy == false){
+            int pick = -prices[index] + solve(prices ,index+1 ,  n , true);
+            int notpick = solve(prices, index+1 ,  n , false);
+            buyy = max(pick , notpick);
         }
         else{
-            int sell = prices[index] + solve(prices , index+1 , 1 ,dp);
-            int notsell = 0 + solve(prices , index+1 , 0 ,dp);
-
-            profit = max(sell , notsell);
+            int sold = prices[index] + solve(prices ,index+1 , n , false);
+            int notsold = solve(prices ,index+1 , n , true);;
+            sell = max(sold , notsold);
         }
 
-        return dp[index][canbuy] = profit;
+        return dp[index][buy] = max(buyy , sell);
     }
-
-    // tabulation
-
-    int solvetab(vector<int>&prices , int n){
-        vector<vector<int>>dp(n+1 , vector<int>(2 , 0));
-
-        // base case nhi likha because, base case me lower row ko zero banane ko bol rhe he, but 
-        // humne already puri matrix ko zero bna diya he so no need
-
-        for(int index = n-1 ; index >= 0 ; index --){
-            for(int canbuy = 0 ; canbuy <= 1 ; canbuy ++){
-                int profit = 0;
-                if(canbuy){
-                    int buy =  -prices[index] + dp[index+1][0];
-                    int notbuy = 0 + dp[index+1][1];
-
-                    profit = max(buy , notbuy);
-                }
-                else{
-                    int sell = prices[index] + dp[index+1][1];
-                    int notsell = 0 + dp[index+1][0];
-
-                    profit = max(sell , notsell);
-                }
-
-                dp[index][canbuy] = profit;
-            }
-        }
-
-        return dp[0][1];
-    }
-
-
-    // space optimize
-
-    int space(vector<int>&prices , int n){
-
-        vector<int>ahead(2 , 0) , curr(2, 0);
-        for(int index = n-1 ; index >= 0 ; index --){
-            for(int canbuy = 0 ; canbuy <= 1 ; canbuy ++){
-                int profit = 0;
-                if(canbuy){
-                    int buy =  -prices[index] + ahead[0];
-                    int notbuy = 0 + ahead[1];
-
-                    profit = max(buy , notbuy);
-                }
-                else{
-                    int sell = prices[index] + ahead[1];
-                    int notsell = 0 + ahead[0];
-
-                    profit = max(sell , notsell);
-                }
-
-                curr[canbuy] = profit;
-            }
-            ahead = curr;
-        }
-
-        return ahead[1];
-    }
-public:
     int maxProfit(vector<int>& prices) {
-        
-        int canbuy = 1;
-
-        vector<vector<int>>dp(prices.size() , vector<int>(2 , -1));
-
-        // return solve(prices , 0 , canbuy ,dp);
         int n = prices.size();
-        // return solvetab(prices , n);
-        return space(prices , n);
+
+        bool buy = false;
+        memset(dp , -1 , sizeof(dp));
+        return solve(prices , 0 , n , buy);
+        
     }
 };
