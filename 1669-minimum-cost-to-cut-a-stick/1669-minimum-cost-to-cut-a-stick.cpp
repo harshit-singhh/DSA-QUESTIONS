@@ -1,17 +1,16 @@
 class Solution {
     private:
-    int solve(int i , int j , vector<int>cuts , vector<vector<int>>&dp){
-        if(i > j) return 0;
+    int solve(int i , int j , vector<int>&cuts , vector<vector<int>>&dp){
+      if(i > j ) return 0;
 
-        if(dp[i][j] != -1) return dp[i][j];
-
-        int mini = 1e9;
-
-        for(int index = i ; index <= j ; index ++){
-            int total = cuts[j+1] - cuts[i-1] + solve(i , index-1 , cuts , dp) + solve(index+1 , j , cuts , dp);
-            mini = min(total , mini);
-        }
-        return dp[i][j] = mini;
+    if(dp[i][j] != -1) return dp[i][j];
+      int mini = INT_MAX;
+      for(int k = i ; k<=j ; k++){
+        int len = cuts[j+1] - cuts[i-1];
+        int ans = len + solve(i , k-1 , cuts , dp) + solve(k+1 , j , cuts , dp);
+        mini = min(mini , ans);
+      }
+      return dp[i][j] = mini;
     }
 
     // tabulation
@@ -45,7 +44,7 @@ public:
         vector<vector<int>>dp(len+1 , vector<int>(len+1 , -1));
 
 
-        // return solve(1 , len-2 , cuts, dp);
-        return solvetab(cuts , len);
+        return solve(1 , len-2 , cuts, dp);
+     
     }
 };
