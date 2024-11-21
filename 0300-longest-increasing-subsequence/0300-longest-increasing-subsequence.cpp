@@ -1,28 +1,26 @@
 class Solution {
-    private:
-    
-    int solve(vector<int>&nums , int n , int index , int prev ,vector<vector<int>>&dp){
-        if(index == n){
-            return 0;
-        }
-
-        if(dp[index][prev+1] != -1) return dp[index][prev+1];
-
-        int notpick = 0 + solve(nums , n , index+1 , prev ,dp);
-        int pick = 0;
-        if(prev == -1 || nums[index] > nums[prev]){
-            pick = 1 + solve(nums , n , index+1 , index ,dp);
-        }
-
-        return dp[index][prev+1] = max(pick , notpick);
-    }
 public:
-    int lengthOfLIS(vector<int>& nums) {
+    int dp[2505][2505];
+    int solve(vector<int>&nums, int index ,int n , int prevIndex){
+        if(index == n ) return 0;
         
-        int n = nums.size();
+        if(dp[index+1][prevIndex+1] != -1) return dp[index+1][prevIndex+1];
 
-        vector<vector<int>>dp(n+1 , vector<int>(n+1 , -1));
-        
-        return solve(nums , n , 0 , -1 ,dp);
+        int pick = 0 , notpick = 0;
+        if(prevIndex == -1 || nums[index] > nums[prevIndex]){
+            pick = 1 + solve(nums, index+1 , n , index);
+            notpick = 0 + solve(nums , index+1 , n , prevIndex);
+        }
+        else{
+            notpick = 0+ solve(nums , index+1 , n , prevIndex);
+        }
+
+        return dp[index+1][prevIndex+1] = max(pick , notpick);
+    }
+    int lengthOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        int prevElemIndex = -1;
+        memset(dp , -1 , sizeof(dp));
+        return solve(nums, 0 , n , prevElemIndex);
     }
 };
