@@ -276,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2132-convert-1d-array-into-2d-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2232-adding-spaces-to-a-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2232-adding-spaces-to-a-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -345,6 +346,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2232-adding-spaces-to-a-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2232-adding-spaces-to-a-string) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3195-separate-black-and-white-balls](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3195-separate-black-and-white-balls) |
@@ -432,6 +434,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2232-adding-spaces-to-a-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2232-adding-spaces-to-a-string) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2411-spiral-matrix-iv) |
@@ -495,6 +498,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2232-adding-spaces-to-a-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2232-adding-spaces-to-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2502-sort-the-people) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2599-take-k-of-each-character-from-left-and-right) |
