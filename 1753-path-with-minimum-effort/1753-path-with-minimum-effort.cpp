@@ -1,41 +1,51 @@
 class Solution {
 public:
-    int minimumEffortPath(vector<vector<int>>& heights) {
-        priority_queue<pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>,
-        greater<pair<int,pair<int,int>>>>p;
-        int row = heights.size();
-        int col = heights[0].size();
-        
-        vector<vector<int>>dist(row,vector<int>(col,INT_MAX));
-        
-        dist[0][0] = 0;
-        p.push({0,{0,0}});
-        int drow[] = {-1,0,1,0};
-        int dcol[] = {0,-1,0,1};
-        
-        
-        while(!p.empty()){
-            int currEffort = p.top().first;
-            int currRow = p.top().second.first;
-            int currCol = p.top().second.second;
-            p.pop();
-            
-            if(currRow == row-1 && currCol == col-1) return currEffort;
-            for(int i = 0; i< 4 ; i++){
-                int newrow = currRow + drow[i];
-                int newcol = currCol + dcol[i];
-                
-                if(newrow >= 0 && newrow < row && newcol >= 0 && newcol < col){
-                    int newEffort = max(abs(heights[newrow][newcol] - heights[currRow][currCol]), currEffort);
-                    if(newEffort < dist[newrow][newcol]){
-                        dist[newrow][newcol] = newEffort;
-                        p.push({newEffort,{newrow,newcol}});
+
+    bool ispossible(int newrow , int newcol , int row ,int col){
+        if(newrow >= 0 && newrow < row && newcol >= 0 && newcol < col){
+            return true;
+
+        }
+
+        return false;
+    }
+    int minimumEffortPath(vector<vector<int>>& arr) {
+        int row = arr.size();
+        int col = arr[0].size();
+
+        vector<vector<int>>distance(row , vector<int>(col , INT_MAX));
+        priority_queue<pair<int, pair<int,int>> , vector<pair<int, pair<int,int>>> , greater<pair<int,pair<int,int>>>>q;
+        q.push({0 , {0 , 0}});
+
+        int dx[] = {-1 , 0 , 1 , 0};
+        int dy[] = {0 , -1 , 0 , 1};
+        while(!q.empty()){
+            auto it =  q.top();
+            q.pop();
+
+            int effort = it.first;
+            int x = it.second.first;
+            int y = it.second.second;
+
+            if(x == row-1 && y == col-1) return effort;
+
+            for(int i = 0 ; i < 4 ; i++){
+                int newrow = x + dx[i];
+                int newcol = y + dy[i];
+
+                if(ispossible(newrow , newcol , row , col)){
+                    int neweffort = max(effort , abs(arr[newrow][newcol] - arr[x][y]));
+                    if(neweffort < distance[newrow][newcol]){
+                        distance[newrow][newcol] = neweffort;
+                        q.push({neweffort, {newrow , newcol}});
                     }
-                    
                 }
             }
-           
+            
+
+
         }
-        return 0; // not rechable
+
+        return -1;
     }
 };
