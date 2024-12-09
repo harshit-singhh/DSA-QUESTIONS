@@ -304,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3235-minimum-cost-to-convert-string-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3291-find-if-array-can-be-sorted) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3427-special-array-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3427-special-array-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -382,6 +383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2586-longest-square-streak-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2586-longest-square-streak-in-an-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2716-prime-subtraction-operation) |
+| [3427-special-array-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3427-special-array-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -715,6 +717,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1694-make-sum-divisible-by-p](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1694-make-sum-divisible-by-p) |
 | [1940-maximum-xor-for-each-query](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1940-maximum-xor-for-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [3427-special-array-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3427-special-array-ii) |
 ## Game Theory
 |  |
 | ------- |
