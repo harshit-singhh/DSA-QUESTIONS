@@ -234,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0130-surrounded-regions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0130-surrounded-regions) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
 | [0300-longest-increasing-subsequence](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0300-longest-increasing-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
@@ -365,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0300-longest-increasing-subsequence](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
