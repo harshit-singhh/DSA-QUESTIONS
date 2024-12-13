@@ -298,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2586-longest-square-streak-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2716-prime-subtraction-operation) |
 | [2727-number-of-senior-citizens](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2727-number-of-senior-citizens) |
@@ -345,6 +346,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2586-longest-square-streak-in-an-array) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -412,6 +414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2586-longest-square-streak-in-an-array) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -466,6 +469,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2411-spiral-matrix-iv](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2411-spiral-matrix-iv) |
 | [2645-pass-the-pillow](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2645-pass-the-pillow) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
 | [3533-snake-in-matrix](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3533-snake-in-matrix) |
@@ -628,6 +632,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2164-two-best-non-overlapping-events](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2164-two-best-non-overlapping-events) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Bucket Sort
 |  |
 | ------- |
