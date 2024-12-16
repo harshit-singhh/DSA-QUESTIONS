@@ -312,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3533-snake-in-matrix](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3533-snake-in-matrix) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -473,6 +474,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
 | [3533-snake-in-matrix](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3533-snake-in-matrix) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Math
 |  |
 | ------- |
@@ -487,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2645-pass-the-pillow](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2645-pass-the-pillow) |
 | [2716-prime-subtraction-operation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Recursion
 |  |
 | ------- |
@@ -633,6 +636,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2616-maximal-score-after-applying-k-operations](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Bucket Sort
 |  |
 | ------- |
