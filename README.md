@@ -242,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0624-maximum-distance-in-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
 | [0870-magic-squares-in-grid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0890-lemonade-change) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -403,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0726-number-of-atoms](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0726-number-of-atoms) |
+| [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1333-sort-the-jumbled-numbers) |
@@ -430,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0624-maximum-distance-in-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0624-maximum-distance-in-arrays) |
+| [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
 | [0890-lemonade-change](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -554,6 +557,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
 | [0943-sum-of-subarray-minimums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1197-parsing-a-boolean-expression) |
@@ -792,6 +796,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0084-largest-rectangle-in-histogram) |
+| [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
 | [0943-sum-of-subarray-minimums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0943-sum-of-subarray-minimums) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
