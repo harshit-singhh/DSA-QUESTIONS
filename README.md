@@ -182,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2035-count-sub-islands](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2035-count-sub-islands) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3058-maximum-number-of-k-divisible-components](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3486-count-the-number-of-good-nodes](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3486-count-the-number-of-good-nodes) |
 ## Breadth-First Search
 |  |
@@ -591,6 +592,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3058-maximum-number-of-k-divisible-components](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3486-count-the-number-of-good-nodes](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3486-count-the-number-of-good-nodes) |
 ## Binary Tree
 |  |
