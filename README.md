@@ -301,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2411-spiral-matrix-iv](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2411-spiral-matrix-iv) |
+| [2465-shifting-letters-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -548,6 +549,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2232-adding-spaces-to-a-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [2465-shifting-letters-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2502-sort-the-people) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -765,6 +767,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1694-make-sum-divisible-by-p](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1694-make-sum-divisible-by-p) |
 | [1940-maximum-xor-for-each-query](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1940-maximum-xor-for-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2465-shifting-letters-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3427-special-array-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3427-special-array-ii) |
 ## Game Theory
