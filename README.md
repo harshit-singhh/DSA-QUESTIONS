@@ -315,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2699-count-the-number-of-fair-pairs](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2716-prime-subtraction-operation) |
 | [2727-number-of-senior-citizens](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2727-number-of-senior-citizens) |
+| [2792-neighboring-bitwise-xor](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2792-neighboring-bitwise-xor) |
 | [2846-robot-collisions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2846-robot-collisions) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -789,6 +790,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2792-neighboring-bitwise-xor](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2792-neighboring-bitwise-xor) |
 | [3291-find-if-array-can-be-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3291-find-if-array-can-be-sorted) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Number Theory
