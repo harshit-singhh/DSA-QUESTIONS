@@ -5,6 +5,8 @@ public:
         return str.size();
     }
     int addDigits(int num) {
+
+        if(sizeofnum(num) < 2 ) return num; 
         
         int sum = 0;
         int size = 0;
@@ -14,12 +16,8 @@ public:
             num = num/10;
             size++;
         }
-        if ( sizeofnum(sum) >= 2 ){
-
-            return addDigits(sum); 
-        }
-
-        return sum;
+        
+        return addDigits(sum);
         
     }
 };
