@@ -379,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0061-rotate-list) |
+| [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0567-permutation-in-string) |
@@ -420,6 +421,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -473,6 +475,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0025-reverse-nodes-in-k-group](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 | [0432-all-oone-data-structure](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
@@ -660,6 +663,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -705,6 +709,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 ## Dynamic Programming
 |  |
 | ------- |
