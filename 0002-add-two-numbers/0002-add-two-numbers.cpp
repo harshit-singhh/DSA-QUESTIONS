@@ -9,71 +9,43 @@
  * };
  */
 class Solution {
-    public:
-    
-    
-    ListNode*reverse(ListNode*head){
-        ListNode*curr = head;
-        ListNode*prev = NULL;
-        ListNode*forward = NULL;
-        while(curr != NULL){
-            forward = curr -> next;
-            curr -> next = prev;
-            prev = curr;
-            curr = forward;
-        }
-        return prev;
-    }
-    
-    void insertAttail(ListNode*&anshead, ListNode*&anstail,int digit){
-        ListNode*temp = new ListNode(digit);
-        if(anshead == NULL){
-            anshead = temp;
-            anstail = temp;
-            return;
-        }
-        else{
-            anstail -> next = temp;
-            anstail = anstail -> next;
-            // anstail = temp;
-            return;
-        }
-    }
-    
-    ListNode*add( ListNode*first,  ListNode*second){
-        int carry = 0;
-        int sum;
-        
-        ListNode*anshead = NULL;
-        ListNode*anstail = NULL;
-        
-        while(first != NULL || second != NULL || carry != 0){
-            int value1 = 0;
-            if(first != NULL){
-                value1 = first -> val;
-            }
-            int value2 = 0;
-            if(second != NULL){
-                value2 = second -> val;
-            }
-            
-            sum = carry + value1 + value2;
-            int digit = sum%10;
-            insertAttail(anshead,anstail,digit);
-            carry = sum/10;
-            
-            if(first != NULL){
-                first = first -> next;
-            }
-            if(second != NULL){
-                second = second -> next;
-            }
-        }
-            return anshead;
-    }
 public:
+    void addinNode(int digit , ListNode*&temp){
+
+        temp -> next = new ListNode(digit);
+        temp = temp -> next;
+        
+    }
+    ListNode*addnum(ListNode*l1 , ListNode*l2){
+        ListNode*head = new ListNode(-1);
+        ListNode*temp = head;
+
+        int carry = 0;
+
+        while(l1 != NULL || l2 != NULL){
+            int l1num = 0;
+            int l2num = 0;
+            if(l1 != NULL ) l1num = l1 -> val;
+            if(l2 != NULL ) l2num = l2 -> val;
+
+            int sum = l1num + l2num + carry;
+            carry = sum / 10;
+            int digit = sum % 10;
+            addinNode(digit , temp); 
+
+            if(l1!= NULL ) l1 = l1 -> next;
+            if(l2 != NULL ) l2 = l2 -> next;
+        }
+
+        if(carry != 0 ) {
+            addinNode(carry , temp);
+        }
+
+        return head -> next;
+    }
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode*head = add(l1 , l2);
+        
+        ListNode*head = addnum(l1 , l2);
         return head;
     }
 };
