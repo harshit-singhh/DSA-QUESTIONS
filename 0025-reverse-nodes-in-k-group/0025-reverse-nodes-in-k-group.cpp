@@ -1,35 +1,46 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
-    ListNode* reverse(ListNode* head, int k) {
-        ListNode* curr = head;
-        ListNode* prev = NULL;
-        ListNode* forward = NULL;
-
-        while (k--) {
-            forward = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = forward;
+    int findsize(ListNode*head){
+        ListNode*temp = head;
+        int size = 0;
+        while(temp!= NULL){
+            size++;
+            temp = temp -> next;
         }
-        return prev;
+        return size;
     }
+    vector<ListNode*> reverseNode(ListNode*head , int k){
+        ListNode*curr = head;
+        ListNode*prev = NULL;
+        ListNode*forw = NULL;
 
-    ListNode* reverseKGroup(ListNode* head, int k) {
-        if (!head || k == 1) return head;
-
-        // Step 1: Check if there are at least `k` nodes left in the list
-        ListNode* temp = head;
-        for (int i = 0; i < k; i++) {
-            if (!temp) return head; // Not enough nodes to reverse
-            temp = temp->next;
+        while(k){
+            k--;
+            forw = curr -> next;
+            curr -> next = prev;
+            prev = curr;
+            curr = forw;
         }
 
-        // Step 2: Reverse the first `k` nodes
-        ListNode* newHead = reverse(head, k);
+        return {curr , prev};
+    }
+    ListNode* reverseKGroup(ListNode* head, int k) {
 
-        // Step 3: Recursively reverse the remaining nodes
-        head->next = reverseKGroup(temp, k);
+        int size = findsize(head);
+        if(size < k ) return head;
 
-        return newHead;
+        vector<ListNode*>nodes = reverseNode(head , k);
+        head -> next = reverseKGroup(nodes[0] , k);
+        return nodes[1];
     }
 };
