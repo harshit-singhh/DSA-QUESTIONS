@@ -340,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0128-longest-consecutive-sequence) |
+| [0160-intersection-of-two-linked-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0160-intersection-of-two-linked-lists) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0424-longest-repeating-character-replacement) |
@@ -380,6 +381,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0061-rotate-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0061-rotate-list) |
 | [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0160-intersection-of-two-linked-lists) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0567-permutation-in-string) |
@@ -476,6 +478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0160-intersection-of-two-linked-lists) |
 | [0432-all-oone-data-structure](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1484-linked-list-in-binary-tree) |
