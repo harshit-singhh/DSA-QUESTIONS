@@ -496,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0258-add-digits) |
 | [0906-walking-robot-simulation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0906-walking-robot-simulation) |
 | [1642-water-bottles](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1642-water-bottles) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1667-find-kth-bit-in-nth-binary-string) |
@@ -520,6 +521,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0002-add-two-numbers) |
 | [0241-different-ways-to-add-parentheses](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0241-different-ways-to-add-parentheses) |
+| [0258-add-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0258-add-digits) |
 | [0273-integer-to-english-words](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0273-integer-to-english-words) |
 | [0564-find-the-closest-palindrome](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0564-find-the-closest-palindrome) |
 | [0650-2-keys-keyboard](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0650-2-keys-keyboard) |
@@ -823,6 +825,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Number Theory
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0258-add-digits) |
 | [2716-prime-subtraction-operation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Memoization
