@@ -254,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
+| [0485-max-consecutive-ones](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0485-max-consecutive-ones) |
 | [0624-maximum-distance-in-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
