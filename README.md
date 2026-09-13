@@ -893,4 +893,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1192-critical-connections-in-a-network) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
