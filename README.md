@@ -237,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0031-next-permutation) |
 | [0040-combination-sum-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0040-combination-sum-ii) |
@@ -386,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0061-rotate-list) |
@@ -435,6 +437,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0015-3sum) |
 | [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
