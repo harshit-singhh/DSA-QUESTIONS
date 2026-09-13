@@ -240,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0031-next-permutation) |
 | [0040-combination-sum-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0040-combination-sum-ii) |
+| [0048-rotate-image](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0057-insert-interval) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0084-largest-rectangle-in-histogram) |
@@ -527,6 +528,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0048-rotate-image) |
 | [0241-different-ways-to-add-parentheses](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0241-different-ways-to-add-parentheses) |
 | [0258-add-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0258-add-digits) |
 | [0273-integer-to-english-words](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0273-integer-to-english-words) |
@@ -666,6 +668,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0048-rotate-image) |
 | [0130-surrounded-regions](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0130-surrounded-regions) |
 | [0870-magic-squares-in-grid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0870-magic-squares-in-grid) |
 | [0999-regions-cut-by-slashes](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0999-regions-cut-by-slashes) |
