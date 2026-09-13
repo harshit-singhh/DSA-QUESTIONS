@@ -243,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0040-combination-sum-ii) |
 | [0048-rotate-image](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0057-insert-interval) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -438,6 +439,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
@@ -903,4 +905,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0128-longest-consecutive-sequence) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
