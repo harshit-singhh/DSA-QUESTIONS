@@ -238,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0031-next-permutation) |
 | [0040-combination-sum-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0040-combination-sum-ii) |
 | [0055-jump-game](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0057-insert-interval) |
@@ -385,6 +386,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0061-rotate-list) |
 | [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0160-intersection-of-two-linked-lists) |
