@@ -240,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0033-search-in-rotated-sorted-array) |
 | [0040-combination-sum-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0040-combination-sum-ii) |
 | [0048-rotate-image](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0055-jump-game) |
@@ -416,6 +417,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0300-longest-increasing-subsequence](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0349-intersection-of-two-arrays) |
