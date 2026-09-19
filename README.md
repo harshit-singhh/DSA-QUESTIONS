@@ -493,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
+| [0402-remove-k-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0624-maximum-distance-in-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0624-maximum-distance-in-arrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
@@ -587,6 +588,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0214-shortest-palindrome](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0273-integer-to-english-words) |
+| [0402-remove-k-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0451-sort-characters-by-frequency) |
 | [0564-find-the-closest-palindrome](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0564-find-the-closest-palindrome) |
@@ -632,6 +634,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0145-binary-tree-postorder-traversal) |
+| [0402-remove-k-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0402-remove-k-digits) |
 | [0726-number-of-atoms](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
@@ -900,6 +903,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0084-largest-rectangle-in-histogram) |
+| [0402-remove-k-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0402-remove-k-digits) |
 | [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
 | [0907-sum-of-subarray-minimums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0907-sum-of-subarray-minimums) |
 | [0943-sum-of-subarray-minimums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0943-sum-of-subarray-minimums) |
