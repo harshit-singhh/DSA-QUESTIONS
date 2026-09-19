@@ -2,20 +2,28 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int n = height.size();
-        vector<int> premax(n),suffixmax(n);
-        // Computing prefixmax for each element in height array
-        premax[0]=height[0];
-        for(int i=1;i<height.size();i++)
-            premax[i] = max(height[i],premax[i-1]);
-        // Computing suffixmax for each element in height array
-        suffixmax[n-1] = height[n-1];
-        for(int i=n-2;i>=0;i--)
-           suffixmax[i] = max(height[i],suffixmax[i+1]);
-        // computing the water trapped using the below formula
+
+        vector<int>prefix(n , 0);
+        vector<int>suffix(n , 0);
+
+        int maxi = INT_MIN;
+
+        for(int i = 0 ; i < n ; i++){
+            maxi = max(maxi , height[i]);
+            prefix[i] = maxi;
+        }
+
+        maxi = INT_MIN;
+        
+        for(int i = n-1 ; i >= 0 ; i--){
+            maxi =  max(maxi , height[i]);
+            suffix[i] = maxi;
+        }
+
         int water = 0;
-        for(int i=0;i<n;i++)
-        {
-            water += (min(premax[i],suffixmax[i])-height[i]);
+        for(int i = 0 ; i < n ; i ++){
+
+            water += min(prefix[i] , suffix[i]) - height[i];
         }
         return water;
     }
