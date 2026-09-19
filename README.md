@@ -288,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1402-count-square-submatrices-with-all-ones](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1511-count-number-of-teams](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1511-count-number-of-teams) |
+| [1539-kth-missing-positive-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1539-kth-missing-positive-number) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -429,6 +430,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1539-kth-missing-positive-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1539-kth-missing-positive-number) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1753-path-with-minimum-effort](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1753-path-with-minimum-effort) |
