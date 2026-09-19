@@ -19,8 +19,7 @@ public:
                 break;
             }
         }
-        if(not_possible == false) return true;
-        return false;
+        return !not_possible;
     }
     int minEatingSpeed(vector<int>& piles, int h) {
         
