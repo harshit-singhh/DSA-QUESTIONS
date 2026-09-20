@@ -8,42 +8,46 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-class comp{
-    public:
-    bool operator()(const ListNode*a , const ListNode*b){
-        return a -> val > b -> val;
-    }
-};
 class Solution {
 public:
-    
+    ListNode* mergeLeftRight(ListNode*left , ListNode*right){
+
+        if(right == NULL ) return left;
+        if(left == NULL ) return right;
+
+        while(left != NULL && right != NULL){
+
+            if(left -> val <= right -> val){
+                left -> next = mergeLeftRight(left -> next , right);
+                return left;
+            }
+            else{
+                right -> next = mergeLeftRight(left , right -> next);
+                return right;
+            } 
+        }
+        return NULL;
+    }
+    ListNode*splitandsort(vector<ListNode*>&lists , int start , int end){
+        if(start > end){
+            return NULL;
+        }
+        if(start == end){
+            return lists[start];
+        }
+
+        int mid = start + ( end - start ) / 2;
+
+        ListNode*left = splitandsort(lists, start , mid);
+        ListNode*right = splitandsort(lists , mid+1 , end);
+
+        ListNode*mergedHead = mergeLeftRight(left , right);
+        return mergedHead;
+    }
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         
-        priority_queue<ListNode* , vector<ListNode*> , comp>q;
-
-        for(auto it : lists){
-            ListNode*temp = it;
-            while(temp != NULL){
-                q.push(temp);
-                temp = temp -> next;
-            }
-        }
-
-        ListNode*dummy = new ListNode(-1);
-        ListNode*temp = dummy;
-        while(!q.empty()){
-            
-            ListNode*currNode = q.top();
-            currNode -> next = NULL;
-            q.pop();
-
-            temp -> next = currNode;
-            temp = temp -> next;
-
-        }
-
-        return dummy -> next;
+        int n = lists.size();
+        return splitandsort(lists , 0 , n-1);
 
     }
 };
