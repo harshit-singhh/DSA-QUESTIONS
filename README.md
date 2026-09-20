@@ -358,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0160-intersection-of-two-linked-lists) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0349-intersection-of-two-arrays) |
@@ -517,6 +518,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0061-rotate-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0146-lru-cache](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0160-intersection-of-two-linked-lists) |
 | [0432-all-oone-data-structure](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0432-all-oone-data-structure) |
@@ -824,6 +826,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0432-all-oone-data-structure) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
@@ -900,6 +903,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0432-all-oone-data-structure) |
 ## Monotonic Stack
 |  |
