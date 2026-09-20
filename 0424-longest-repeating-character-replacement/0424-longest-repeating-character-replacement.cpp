@@ -1,66 +1,32 @@
 class Solution {
 public:
+    int characterReplacement(string s, int k) {
+        int n = s.size();
+        unordered_map<char, int> mp;
+        
+        int left = 0, right = 0;
+        int max_len = 0;
+        int max_freq = 0;
 
-    int maxFrequentValue(unordered_map<char,int>&m){
-        
-        int maxi = 0;
-        
-        for(auto i : m){
-            maxi = max(maxi , i.second);
-        }
-        
-        return maxi;
-    }
-
-
-    int characterReplacement(string S, int K) {
-        int left = 0 , right = 0 ;
-        int maxlength = 0;
-        
-        unordered_map<char,int>m;
-        
-        while(right < S.size()){
+        while (right < n) {
+            // 1. Add current character to map
+            mp[s[right]]++;
             
-            
-            m[S[right]]++;
+            // 2. Track maximum frequency of any single character in current window
+            max_freq = max(max_freq, mp[s[right]]);
 
-            while(((right - left +1) - maxFrequentValue(m)) > K){
-                m[S[left]]--;
-                
+            // 3. If replacements needed exceed k, shrink window from left
+            while ((right - left + 1) - max_freq > k) {
+                mp[s[left]]--;
                 left++;
             }
-                
 
-            int windowLength = right-left+1;
-            maxlength = max(maxlength,windowLength);
+            // 4. Update max valid window length
+            max_len = max(max_len, right - left + 1);
+            
             right++;
-
         }
-        
-        return maxlength;
+
+        return max_len;
     }
-
-
-    // int characterReplacement(string S, int K) {
-    //     int n = S.size();
-    //     vector<int> mp(26, 0);
-    //     int head = 0; // right
-    //     int tail = 0; // left
-    //     int res = 0;
-        
-    //     for(int head = 0; head < n; head++) {
-    //         mp[S[head] - 'A']++;
-            
-    //         while((head - tail + 1) - *max_element(mp.begin(), mp.end()) > K) {
-    //             mp[S[tail] - 'A']--;
-    //             tail++;
-    //         }
-            
-    //         res = max(res, (head - tail + 1));
-    //     }
-        
-    //     return res;
-    
-    
-    // }
 };
