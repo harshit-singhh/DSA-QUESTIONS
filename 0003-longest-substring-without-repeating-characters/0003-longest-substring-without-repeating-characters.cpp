@@ -1,36 +1,26 @@
 class Solution {
 public:
-    int lengthOfLongestSubstring(string S) {
-        int left = 0 , right = 0 , maxi = 0;
-        
-        set<int>st; 
-        
-        while(right < S.size()){
-            
-            int length = 0;
-            
-            if(st.find(S[right]) == st.end()){
-                st.insert(S[right]);
-                length = right - left +1;
+    int lengthOfLongestSubstring(string s) {
+        int n = s.size();
+        int left = 0;
+        int right = 0;
+
+        int maxLen = 0;
+        unordered_set<char>st;
+
+        while(right < n){
+
+            while(st.find(s[right]) != st.end()){
+                st.erase(s[left]);
+                left ++;
             }
-            
-            else{
-                
-                while(st.find(S[right]) != st.end()){
-                    st.erase(S[left]);
-                    left++;
-                }
-                length = right - left +1;
-                st.insert(S[right]);
-            }
-            
-            maxi = max(maxi,length);
+
+            int len = right - left + 1;
+            maxLen = max(maxLen , len);
+            st.insert(s[right]);
             right++;
 
         }
-        
-        if(maxi == 0 )return 0;
-        return maxi;
-        
+        return maxLen;
     }
 };
