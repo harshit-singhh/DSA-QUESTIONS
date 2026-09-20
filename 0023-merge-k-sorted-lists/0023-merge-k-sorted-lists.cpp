@@ -8,44 +8,42 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+class comp{
+    public:
+    bool operator()(const ListNode*a , const ListNode*b){
+        return a -> val > b -> val;
+    }
+};
 class Solution {
 public:
-
-    ListNode*merge(ListNode*head1 , ListNode*head2){
-        if(head1 == NULL) return head2;
-        if(head2 == NULL )return head1;
-
-        if(head1-> val <= head2 -> val){
-            head1-> next = merge(head1->next , head2);
-            return head1;
-        }
-        else{
-            head2-> next = merge(head2-> next , head1);
-            return head2;
-        }
-        return NULL;
-    }
-
-    ListNode* breakk(vector<ListNode*>lists , int start , int end){
-        if(start == end) return lists[start];
-
-        int mid = start + (end - start )/2;
-
-        ListNode*left = breakk(lists , start , mid);
-        ListNode*right = breakk(lists,mid+1 , end);
-
-        return merge(left , right);
-    }
+    
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         
-        int n = lists.size();
-        
-        
-        if (n == 0) return nullptr;
-        return breakk(lists, 0 , n-1);
+        priority_queue<ListNode* , vector<ListNode*> , comp>q;
 
-        
+        for(auto it : lists){
+            ListNode*temp = it;
+            while(temp != NULL){
+                q.push(temp);
+                temp = temp -> next;
+            }
+        }
 
+        ListNode*dummy = new ListNode(-1);
+        ListNode*temp = dummy;
+        while(!q.empty()){
+            
+            ListNode*currNode = q.top();
+            currNode -> next = NULL;
+            q.pop();
+
+            temp -> next = currNode;
+            temp = temp -> next;
+
+        }
+
+        return dummy -> next;
 
     }
 };
