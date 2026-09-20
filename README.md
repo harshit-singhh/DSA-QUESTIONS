@@ -265,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0540-single-element-in-a-sorted-array) |
+| [0621-task-scheduler](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
@@ -369,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0432-all-oone-data-structure](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0432-all-oone-data-structure) |
 | [0451-sort-characters-by-frequency](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0451-sort-characters-by-frequency) |
 | [0567-permutation-in-string](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0621-task-scheduler) |
 | [0726-number-of-atoms](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0906-walking-robot-simulation) |
@@ -472,6 +474,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
+| [0621-task-scheduler](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0621-task-scheduler) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0726-number-of-atoms](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0726-number-of-atoms) |
 | [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
@@ -502,6 +505,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
 | [0402-remove-k-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
+| [0621-task-scheduler](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0624-maximum-distance-in-arrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0780-max-chunks-to-make-sorted) |
 | [0890-lemonade-change](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0890-lemonade-change) |
@@ -734,6 +738,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1325-path-with-maximum-probability](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1325-path-with-maximum-probability) |
@@ -755,6 +760,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0621-task-scheduler) |
 | [0992-subarrays-with-k-different-integers](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0992-subarrays-with-k-different-integers) |
 | [1396-count-servers-that-communicate](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1396-count-servers-that-communicate) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
