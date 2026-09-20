@@ -1,22 +1,23 @@
 class Solution {
 public:
-    int leastInterval(vector<char>& t, int n) {
+    int leastInterval(vector<char>& tasks, int n) {
         
-        // code here
-        int mx=0,mx_cnt=0;
-        unordered_map<char,int>m;
-        for(auto c : t){
-            m[c]++;
-            mx=max(mx,m[c]);
+        vector<int>freq(26,0);
+        for(auto it : tasks){
+            freq[it - 'A']++;
         }
-        int count = 0;
-        
-        for(auto c : m){
-            if(c.second == mx) count++;
+
+        sort(freq.begin() , freq.end());
+        int maxFreq = freq[25];
+
+        int gaddha = freq[25]-1;
+        int idleSpot = gaddha*n;
+
+        for(int i = 24 ; i>= 0 ; i--){
+            idleSpot -= min(freq[i] , gaddha);
         }
         
-        int ans = (mx-1)*(n+1) + count;
-        int k = t.size();
-        return max(ans , k);
+        if(idleSpot > 0) return tasks.size() + idleSpot;
+        else return tasks.size();
     }
 };
