@@ -956,4 +956,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0056-merge-intervals) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
