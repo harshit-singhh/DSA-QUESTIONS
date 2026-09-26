@@ -1,37 +1,30 @@
 class Solution {
 public:
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
-        sort(intervals.begin(),intervals.end());
         
-        int count = 0;
-        
-        vector<int>prev = intervals[0];
-        
-        int i = 1;
-        
+        int removal = 0;
+
         int n = intervals.size();
-        while(i < n){
-            if(intervals[i][0] >= prev[1]){
-                prev = intervals[i];
+        sort(intervals.begin() , intervals.end());
+
+        int index = 1;
+        vector<int>lastInterval = intervals[0];
+        while(index < n){
+            if(intervals[index][0] >= lastInterval[0] && intervals[index][1] <= lastInterval[1]){
+                lastInterval = intervals[index];
+                removal++;
+                index++;
             }
-            
+            else if(intervals[index][0] < lastInterval[1]){
+                removal++;
+                index++;
+            }
             else{
-                // prev    curr
-                //[1,2] [1,3] ye wala case likhne ki zaroorat nhi he because, prev abhi bhi udhar hi rhega and [1,3]
-                // delete hoga
-                
-                
-                // [1,5] [1,3] // ye 
-                //  prev   curr
-                
-                count++;
-                if(prev[1] > intervals[i][1]){
-                    prev = intervals[i];
-                }
+                lastInterval = intervals[index];
+                index++;
             }
-            i++;
         }
-        
-        return count;
+
+        return removal;
     }
 };
