@@ -262,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0435-non-overlapping-intervals](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0540-single-element-in-a-sorted-array) |
@@ -474,6 +475,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0435-non-overlapping-intervals](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0621-task-scheduler) |
@@ -507,6 +509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0179-largest-number) |
 | [0402-remove-k-digits](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0402-remove-k-digits) |
+| [0435-non-overlapping-intervals](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0624-maximum-distance-in-arrays) |
@@ -792,6 +795,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0300-longest-increasing-subsequence) |
+| [0435-non-overlapping-intervals](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0435-non-overlapping-intervals) |
 | [0650-2-keys-keyboard](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0650-2-keys-keyboard) |
 | [0907-sum-of-subarray-minimums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0907-sum-of-subarray-minimums) |
 | [0943-sum-of-subarray-minimums](https://github.com/harshit-singhh/DSA-QUESTIONS/tree/master/0943-sum-of-subarray-minimums) |
