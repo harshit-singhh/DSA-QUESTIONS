@@ -1,39 +1,34 @@
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
-        vector<vector<int>>ans;
-
+        
         int n = intervals.size();
-        
-        int i = 0;
-        
-        while(i < intervals.size()){
-            if(intervals[i][1] < newInterval[0]){
-                ans.push_back(intervals[i]);
-                
-            } 
-            
-            else if(intervals[i][0] > newInterval[1]){
-                
+
+        int index = 0;
+        vector<vector<int>>ans;
+        while(index < n){
+            if(newInterval[1] < intervals[index][0]){
                 break;
+
             }
-            
+
+            else if(newInterval[0] > intervals[index][1]){
+                ans.push_back(intervals[index]);
+                index++;
+            }
             else{
-                //intervals are overlapping, merge them and erase the intervals which was merged
-                
-                newInterval[0] = min(newInterval[0],intervals[i][0]);
-                newInterval[1] = max(newInterval[1],intervals[i][1]);
- 
+                newInterval[0] = min(newInterval[0] , intervals[index][0]);
+                newInterval[1] = max(newInterval[1] , intervals[index][1]);
+                index++;
+
             }
-            
-            i++;
         }
-        
+
         ans.push_back(newInterval);
-        
-        while(i<n){
-            ans.push_back(intervals[i]);
-            i++;
+
+        while(index < n){
+            ans.push_back(intervals[index]);
+            index++;
         }
         return ans;
     }
