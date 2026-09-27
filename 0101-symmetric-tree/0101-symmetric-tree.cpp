@@ -10,21 +10,32 @@
  * };
  */
 class Solution {
-        bool solve(TreeNode*root1 , TreeNode*root2){
-            if(root1 == NULL && root2 ==NULL ) return true;
-            if(root1 == NULL && root2 != NULL) return false;
-            if(root2 == NULL && root1 != NULL) return false;
-            if(root1 -> val != root2 -> val) return false;
-
-            bool leftright = solve(root1 -> left , root2 -> right);
-            bool rightleft = solve(root1 -> right , root2 -> left);
-
-            return leftright && rightleft;
-        }
 public:
+
+    bool isleaf(TreeNode*root){
+        if(root -> left == NULL && root -> right == NULL) return true;
+        return false;
+    }
+
+    bool solve(TreeNode*leftNode , TreeNode*rightNode){
+        if(leftNode == NULL && rightNode == NULL ) return true;
+        else if(leftNode == NULL && rightNode != NULL ) return false;
+        else if(leftNode != NULL && rightNode == NULL ) return false;
+
+        bool side1 = solve(leftNode -> left , rightNode -> right);
+        bool side2 = solve(leftNode -> right , rightNode -> left);
+
+        if(side1 == false || side2 == false ) return false;
+        if(leftNode -> val != rightNode -> val ) return false;
+        return true;
+
+    }
+
     bool isSymmetric(TreeNode* root) {
-        bool ans = solve(root -> left , root -> right);
-        return ans;
-        
+        if(isleaf(root)){
+            return true;
+        }
+
+        return solve(root -> left , root -> right);
     }
 };
